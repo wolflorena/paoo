@@ -1,7 +1,7 @@
-#include "dog.h"
+#include "lazyDog.h"
 #include <iostream>
 
-using namespace std;
+using namespace Shelter;
 
 int main() {
     Dog kira("Kira", 2, true);
@@ -20,6 +20,18 @@ int main() {
     moveOfThor.display();
     moveOfThor.changeName("new name for Thor");
     moveOfThor.display();
+    
+    Dog rex("Rex", 3, true);
+    Dog nala("Nala", 5, true);
+    rex = nala;
+    rex.display();
+
+    rex.speak();
+    nala.speak();
+
+    LazyDog bob("Bob", 10, true);
+    kira.playFetch();
+    bob.playFetch();
     
     return 0;
 }

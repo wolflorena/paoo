@@ -7,8 +7,11 @@ add_executable(Main main.cpp)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-add_subdirectory(lib)
+add_subdirectory(dog)
+add_subdirectory(animal)
 
-target_link_libraries(Main PUBLIC lib)
+target_link_libraries(Main PUBLIC dog)
+target_link_libraries(Main PUBLIC animal)
 
-target_include_directories(Main PUBLIC "${PROJECT_SOURCE_DIR}/lib")
+target_include_directories(Main PUBLIC "${PROJECT_SOURCE_DIR}/dog")
+target_include_directories(Main PUBLIC "${PROJECT_SOURCE_DIR}/animal")

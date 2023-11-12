@@ -1,1 +1,0 @@
-add_library(lib STATIC dog.cpp)
