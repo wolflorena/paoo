@@ -76,3 +76,17 @@ Dog& Dog::operator= (const Dog &other) {
 
     return *this;
 }
+
+Dog& Dog::operator= (Dog &&otherDog) {
+    this->name = otherDog.name;
+    this->age = otherDog.age;
+    this->isHealthy = otherDog.isHealthy;
+
+    otherDog.name = nullptr;
+    otherDog.age = 0;
+    otherDog.isHealthy = false;
+
+    std::cout << "\n" << this->name << " has been copied using '=' --> overload for move constructor"<< std::endl << std::endl;
+
+    return *this;
+}

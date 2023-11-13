@@ -1,4 +1,5 @@
 #include "lazyDog.h"
+#include "cat.h"
 #include <iostream>
 
 using namespace Shelter;
@@ -26,12 +27,20 @@ int main() {
     rex = nala;
     rex.display();
 
+    Dog dog1("Dog 1", 5, true);
+    dog1 = Dog("Another dog name", 5, true);
+    dog1.display();
+
     rex.speak();
     nala.speak();
 
     LazyDog bob("Bob", 10, true);
     kira.playFetch();
     bob.playFetch();
+
+    Cat kimi("Kimi", 5);
+    kimi.display();
+    kimi.speak();
     
     return 0;
 }

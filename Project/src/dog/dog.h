@@ -19,5 +19,6 @@ class Dog : public IAnimal {
         virtual void playFetch() const;
 
         Dog& operator=(const Dog &other);
+        Dog& operator=(Dog &&otherDog);
 };
 }
