@@ -1,0 +1,12 @@
+/Users/wolflorena/paoo/paoo/test/build/CMakeFiles/Main.dir
+/Users/wolflorena/paoo/paoo/test/build/CMakeFiles/edit_cache.dir
+/Users/wolflorena/paoo/paoo/test/build/CMakeFiles/rebuild_cache.dir
+/Users/wolflorena/paoo/paoo/test/build/Library/CMakeFiles/Library.dir
+/Users/wolflorena/paoo/paoo/test/build/Library/CMakeFiles/edit_cache.dir
+/Users/wolflorena/paoo/paoo/test/build/Library/CMakeFiles/rebuild_cache.dir
+/Users/wolflorena/paoo/paoo/test/build/Book/CMakeFiles/Book.dir
+/Users/wolflorena/paoo/paoo/test/build/Book/CMakeFiles/edit_cache.dir
+/Users/wolflorena/paoo/paoo/test/build/Book/CMakeFiles/rebuild_cache.dir
+/Users/wolflorena/paoo/paoo/test/build/Mutex/CMakeFiles/Mutex.dir
+/Users/wolflorena/paoo/paoo/test/build/Mutex/CMakeFiles/edit_cache.dir
+/Users/wolflorena/paoo/paoo/test/build/Mutex/CMakeFiles/rebuild_cache.dir
